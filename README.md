@@ -11,6 +11,8 @@ To design and simulate an Integrator circuit using μA741 in Proteus Design Suit
 •	CRO / Oscilloscope
 •	Connecting wires
 ## Circuit Diagram
+<img width="1181" height="641" alt="image" src="https://github.com/user-attachments/assets/42b03ad0-9e9a-4607-80b5-f9c8c8d20afd" />
+
 ## Connection Details:
 •	Input signal → Resistor (R) → Inverting terminal (Pin 2)
 •	Feedback capacitor (Cf) → Between Output (Pin 6) and Pin 2
@@ -36,7 +38,17 @@ For Sine Wave Input:
 7.	Observe input and output waveforms on CRO.
 ## Tabulation
 S.No	           Input Signal	 Frequency	      Expected Output	               Practical Observation
+Sl. No	Input Voltage (Vin)	Time (ms)	Output Voltage (Vout)
+1	+5 V	0 ms	0 V
+2	+5 V	0.5 ms	–2.5 V
+3	+5 V	1 ms	–5 V
+4	–5 V	1.5 ms	–2.5 V
+5	–5 V	2 ms	0 V
+6	+5 V	2.5 ms	–2.5 V
+7	+5 V	3 ms	–5 V
 ## Waveforms
+<img width="1372" height="871" alt="image" src="https://github.com/user-attachments/assets/469369da-8b58-434c-b0f3-600ecd1106d5" />
+
 ## Result
 The Integrator circuit using μA741 Op-Amp was successfully designed and simulated in Proteus.
 The output waveform is proportional to the integral of the input signal.
